@@ -17,35 +17,35 @@ The SDK does not require recompilation. Please refer to the contents below.
 
 1. For the first use, after confirming the power supply and USB connection, run the following command to modify the read and write permissions of the serial port files:
 
-    ```shell
+    ```
     sudo chmod 777 /dev/tabletop_tele_arm_port_*
     ```
 
 2. After confirming the modification, you can initialize the SDK:
 
-    ```shell
+    ```
     cd a1_driver_sdk/install
     source setup.bash
     roslaunch signal_arm tabletop_tele_arm_node_left.launch
     ```
 
-       ```shell
-   cd a1_driver_sdk/install
-   source setup.bash
-   roslaunch signal_arm tabletop_tele_arm_node_right.launch
-   ```
+    ```
+    cd a1_driver_sdk/install
+    source setup.bash
+    roslaunch signal_arm tabletop_tele_arm_node_right.launch
+    ```
 
-       ```shell
-   cd a1_driver_sdk/install
-   source setup.bash
-   roslaunch mobiman tabletop_tele_mobiman_l.launch
-   ```
-
-       ```shell
-   cd a1_driver_sdk/install
-   source setup.bash
-   roslaunch mobiman tabletop_tele_mobiman_r.launch
-   ```
+    ```
+    cd a1_driver_sdk/install
+    source setup.bash
+    roslaunch mobiman tabletop_tele_mobiman_l.launch
+    ```
+    
+    ```
+    cd a1_driver_sdk/install
+    source setup.bash
+    roslaunch mobiman tabletop_tele_mobiman_r.launch
+    ```
 
 ## Driver Interface
 
